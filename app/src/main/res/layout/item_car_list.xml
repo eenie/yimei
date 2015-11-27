@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小鸡炖蘑菇"
+        android:id="@+id/textName"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="￥8.00"
+        android:id="@+id/textPrice"
+        android:textColor="#FC4D3D"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/textSub"
+            android:background="@drawable/shape_btn_sub"
+            android:gravity="center"
+            android:text="-"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:maxLength="3"
+            android:id="@+id/textCount"
+            android:gravity="center"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/textAdd"
+            android:background="@drawable/shape_btn_plus"
+            android:gravity="center"
+            android:text="+"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="2dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textColor"
+        android:background="#cf4040"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

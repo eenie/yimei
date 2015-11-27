@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.neusoft.eenie.order"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <application
+        android:name=".controller.base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".controller.main.MainActivity">
+
+        </activity>
+        <activity android:name=".controller.main.splash.SplashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".controller.main.splash.IntroduceActivity">
+
+
+        </activity>
+        <activity android:name=".controller.login.LoginActivity">
+        </activity>
+        <activity android:name=".controller.login.RegsiterActivity">
+        </activity>
+        <activity android:name=".controller.main.UserInfoActivity">
+        </activity>
+        <activity android:name=".view.AddFoodCategoryActivity">
+        </activity>
+        <activity android:name=".view.addFoodActivity">
+        </activity>
+        <activity android:name=".controller.main.FoodInfoActivity">
+        </activity>
+        <activity android:name=".controller.main.OrderInfoActivity">
+        </activity>
+    </application>
+
+</manifest>

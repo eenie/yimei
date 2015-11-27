@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <include
+        android:id="@+id/menuToolbar"
+        layout="@layout/toolbar_top_menu"/>
+
+    <RelativeLayout
+        android:id="@+id/fragmentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomGroup"
+        android:layout_weight="1"
+        android:layout_below="@+id/menuToolbar">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/rootPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/takeout_ic_order_normal"/>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:translationZ="5dp">
+
+        <RadioButton
+            android:id="@+id/btnBottomIndex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_bottom_btn_index"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="首页"
+            android:textColor="@color/bottom_button_selector"/>
+
+        <RadioButton
+            android:id="@+id/btnBottomOrder"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_bottom_btn_oder"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="订单"
+            android:textColor="@color/bottom_button_selector"/>
+
+        <RadioButton
+            android:id="@+id/btnBottomMe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/selector_bottom_btn_me"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="我的"
+            android:textColor="@color/bottom_button_selector"/>
+    </RadioGroup>
+
+
+    <View
+        android:id="@+id/overRay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6D000000"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_below="@+id/menuToolbar"
+        android:onClick="cancelFab"/>
+
+
+    <io.codetail.widget.RevealFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+
+            <LinearLayout
+                android:background="#f5f5f5"
+                android:id="@+id/sheet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/carFoodList"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:paddingTop="10dp">
+                </ListView>
+                <TextView
+                    android:id="@+id/empty"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:background="#efeeee"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:paddingLeft="10dp"
+                        android:clickable="true"
+                        android:textColor="#FC4D3D"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="总价：￥100.00元"
+                        android:id="@+id/textTotalPrice"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="立即下单"
+                        android:id="@+id/btnGoPay"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+    </io.codetail.widget.RevealFrameLayout>
+
+
+</RelativeLayout>

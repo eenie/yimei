@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardBackgroundColor="#fcc24a"
+    android:translationZ="5dp"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="亿美在线"
+                android:id="@+id/textBackup"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:textColor="#f5f5f5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="等待付款"
+                android:id="@+id/textState"
+                android:padding="5dp"
+                android:layout_gravity="right"
+                android:textSize="16sp"
+                android:textColor="#f5f5f5"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="订单号：1448511141969"
+            android:id="@+id/textOrderNum"
+            android:textColor="#f5f5f5"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="可获得积分：1200"
+            android:id="@+id/textScore"
+            android:textColor="#f5f5f5"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="消费：￥1024.00"
+            android:id="@+id/textPrice"
+            android:textColor="#f5f5f5"
+            android:padding="5dp"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

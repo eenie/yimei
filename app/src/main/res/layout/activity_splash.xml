@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eenie.funshare.controller.main.SplashActivity"
+    android:background="#34b023"
+    android:id="@+id/backview">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/backgroudview"
+        android:src="@drawable/bg_splash"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/logoview"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView6"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="亿美在线"
+            android:id="@+id/textView2"
+            android:textColor="#f5f5f5"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

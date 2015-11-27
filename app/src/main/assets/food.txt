@@ -1,0 +1,536 @@
+{
+    "msg": "查询菜品成功",
+    "state": "200",
+    "menus": [
+        {
+            "price": "16",
+            "menuName": "干煸豆角",
+            "remark": "干煸是川菜中相当普遍的一种做法.是把食材用油慢慢煸干而衍生出一种特别的滑嫩腴香，清新爽口",
+            "id": 1,
+            "pic": "images/hotdishes1.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "49",
+            "menuName": "红烧金目鲈",
+            "remark": "这是一道色泽好看，鱼质鲜嫩的家常菜。而且鲈鱼本身就有营养，味道鲜",
+            "id": 2,
+            "pic": "images/hotdishes2.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "28",
+            "menuName": "可乐鸡翅",
+            "remark": "可乐鸡翅是一道常见的家常美味菜肴。有许多种做法，但主料均味鸡翅和可乐。其成菜味道鲜美，色泽艳丽，鸡翅嫩滑，又保留了可乐的香气",
+            "id": 3,
+            "pic": "images/hotdishes3.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "11",
+            "menuName": "麻婆豆腐",
+            "remark": "豆腐的营养丰富，是家庭炒菜中广泛使用的材料。豆腐的做法很多，南北方各异，味道有清淡、有浓郁，亦可凉拌、烧煮、做汤",
+            "id": 4,
+            "pic": "images/hotdishes4.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "双色皮冻",
+            "remark": "肉皮冻富含丰富的胶原蛋白，不但韧性好、口感佳，而且对人的皮肤、筋腱、骨骼、毛发都有重要的生理保健作用，物美价廉，美容养颜效果极好，是女士们不可多得的美容佳品。菠菜富含维生素 C、胡萝卜素、蛋白质，以及铁、钙、磷等矿物质。两者结合成双色的肉皮冻，再搭成魔方的形状，好吃又好看",
+            "id": 5,
+            "pic": "images/colddishes1.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "12",
+            "menuName": "葱油金针菇",
+            "remark": "金针菇营养丰富。有益智的功效。这道葱油金针菇口感非常开胃爽口，是一道非常有代表性的凉菜",
+            "id": 6,
+            "pic": "images/colddishes2.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "30",
+            "menuName": "挂糊咖喱虾",
+            "remark": "这是一个东南亚菜它的特色在于：黄红相间，浓香味醇。喜欢咖喱的朋友别错过",
+            "id": 7,
+            "pic": "images/colddishes3.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "20",
+            "menuName": "卤猪肝",
+            "remark": "猪肝中铁质丰富，是补血食品中最常用的食物，食用猪肝可调节和改善贫血病人造血系统的生理功能；能保护眼睛，维持正常视力，防止眼睛干涩、疲劳，维持健康的肤色，对皮肤的健美具有重要意义；经常食用动物肝还能补充维生素B2，这对补充机体重要的辅酶，完成机体对一些有毒成分的去毒有重要作用；猪肝中还具有一般肉类食品不含的维生素Ｃ和微量元素硒，能增强人体的免疫反应，抗氧化，防衰老，并能抑制肿瘤细胞的产生，也可治急性",
+            "id": 8,
+            "pic": "images/colddishes4.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "26",
+            "menuName": "胡萝卜玉米鲫鱼汤",
+            "remark": "这个汤，非常鲜甜好喝，加了赤小豆和眉豆，还有祛湿的效果",
+            "id": 9,
+            "pic": "images/soup1.png",
+            "units": "0",
+            "category": "1203",
+            "version": "1"
+        },
+        {
+            "price": "25",
+            "menuName": "肉片野菌羹",
+            "remark": "很鲜甜很惹味，加了莲藕粉，还具有清热的功效",
+            "id": 10,
+            "pic": "images/soup2.png",
+            "units": "0",
+            "category": "1203",
+            "version": "1"
+        },
+        {
+            "price": "12",
+            "menuName": "海带豆腐汤",
+            "remark": "简单，功效却不可小觑，它可以使清肠排毒变得事半功倍。味道清淡的豆腐与滋味鲜美的海带可谓相得益彰的绝配，注重健康的人，会视这道汤为长生不老的“妙药”",
+            "id": 11,
+            "pic": "images/soup3.png",
+            "units": "0",
+            "category": "1203",
+            "version": "1"
+        },
+        {
+            "price": "20",
+            "menuName": "马蹄银耳汤",
+            "remark": "荸荠是寒性食物，有清热泻火的良好功效。既可清热生津，又可补充营养，最宜用于发烧病人。它具有凉血解毒、利尿通便、化湿祛痰、消食除胀等功效。在呼吸道传染病流行季节，吃马蹄有利于流脑、麻疹、百日咳及急性咽喉炎的防治",
+            "id": 12,
+            "pic": "images/soup4.png",
+            "units": "0",
+            "category": "1203",
+            "version": "1"
+        },
+        {
+            "price": "15",
+            "menuName": "杏仁核桃露",
+            "remark": "可以迅速补充能量，又不会令人发胖，还有美容养颜的功效，特别适合爱美的女士",
+            "id": 13,
+            "pic": "images/drink1.png",
+            "units": "0",
+            "category": "1204",
+            "version": "1"
+        },
+        {
+            "price": "10",
+            "menuName": "可口可乐",
+            "remark": "可口可乐，来自美国，碳酸饮料，深受小朋友的喜爱",
+            "id": 14,
+            "pic": "images/drink2.png",
+            "units": "0",
+            "category": "1204",
+            "version": "1"
+        },
+        {
+            "price": "14",
+            "menuName": "柠檬薏米水",
+            "remark": "柠檬薏米水是款美白养颜的健康饮料，特别受年轻女士的喜爱，薏米有清热利尿、去水肿、排毒的功效，柠檬酸可防止和消除皮肤色素沉着，并有滋润美白肌肤的作用，还可以防止电脑辐射。这两者合二为一美白功效可见一斑。",
+            "id": 15,
+            "pic": "images/drink3.png",
+            "units": "0",
+            "category": "1204",
+            "version": "1"
+        },
+        {
+            "price": "10",
+            "menuName": "果粒橘汁",
+            "remark": "酸酸甜甜还有果粒的橘汁，既健康又经济",
+            "id": 16,
+            "pic": "images/drink4.png",
+            "units": "0",
+            "category": "1204",
+            "version": "1"
+        },
+        {
+            "price": "2",
+            "menuName": "米饭",
+            "remark": "米饭是一种主食，深受广大消费者的喜欢",
+            "id": 17,
+            "pic": "images/staplefood1.png",
+            "units": "0",
+            "category": "1205",
+            "version": "1"
+        },
+        {
+            "price": "12",
+            "menuName": "南瓜豆沙包",
+            "remark": "南瓜富含维生素、矿物质和纤维素，具有增强人体防癌、防心血管疾病、延缓衰老等功效，还可以除湿祛虫、退热止痢、补中益气、润肺安胎、对于糖尿病、高血压、肾脏病变及产妇缺乳、小儿百日咳等症也有辅助疗效",
+            "id": 18,
+            "pic": "images/staplefood2.png",
+            "units": "0",
+            "category": "1205",
+            "version": "1"
+        },
+        {
+            "price": "10",
+            "menuName": "炸酱面",
+            "remark": "面多，肉多，酱炸的香，每次一吃收不住嘴",
+            "id": 19,
+            "pic": "images/staplefood3.png",
+            "units": "0",
+            "category": "1205",
+            "version": "1"
+        },
+        {
+            "price": "20",
+            "menuName": "水煎包",
+            "remark": "皮喧底脆馅鲜。馅料嘛，荤的，素的，荤素搭配，水煎包馅料食材的种类多样化，这样可以让一种食物，涵盖多种营养，不仅味美，营养还全面",
+            "id": 20,
+            "pic": "images/staplefood4.png",
+            "units": "0",
+            "category": "1205",
+            "version": "1"
+        },
+        {
+            "price": "1",
+            "menuName": "碗筷",
+            "remark": "中国人吃饭必备的餐具",
+            "id": 21,
+            "pic": "images/tableware1.png",
+            "units": "0",
+            "category": "1207",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "八宝菠菜",
+            "remark": "爽儿可口",
+            "id": 22,
+            "pic": "images/babaobocai.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "18",
+            "menuName": "翡翠香菇",
+            "remark": "爽儿可口",
+            "id": 23,
+            "pic": "images/feicuixianggu.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "凉拌猪耳朵",
+            "remark": "爽儿可口",
+            "id": 24,
+            "pic": "images/liangbzhuerduo.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "双椒小皮蛋",
+            "remark": "爽儿可口",
+            "id": 25,
+            "pic": "images/sjxiaopidan.png",
+            "units": "0",
+            "category": "1202",
+            "version": "1"
+        },
+        {
+            "price": "26",
+            "menuName": "板栗西芹百合",
+            "remark": "爽儿可口",
+            "id": 26,
+            "pic": "images/banlixiqin.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "28",
+            "menuName": "爆炒鱿鱼花",
+            "remark": "爽儿可口",
+            "id": 27,
+            "pic": "images/youyuhua.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "22",
+            "menuName": "豉汁豆腐蒸带子",
+            "remark": "爽儿可口",
+            "id": 28,
+            "pic": "images/doufuzhenghaidai.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "39",
+            "menuName": "红烧猪蹄",
+            "remark": "爽儿可口",
+            "id": 29,
+            "pic": "images/hongshaozhuti.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "火爆腰花",
+            "remark": "爽儿可口",
+            "id": 30,
+            "pic": "images/huobaoyaohua.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "25",
+            "menuName": "鸡腿堡图片",
+            "remark": "爽儿可口",
+            "id": 31,
+            "pic": "images/jituibao.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "40",
+            "menuName": "满园春色",
+            "remark": "爽儿可口",
+            "id": 32,
+            "pic": "images/manyuanchunse.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "南瓜盅",
+            "remark": "爽儿可口",
+            "id": 33,
+            "pic": "images/nanguazhong.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "42",
+            "menuName": "糯米金鸭梨",
+            "remark": "爽儿可口",
+            "id": 34,
+            "pic": "images/jinyali.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "碳烧银雪鱼",
+            "remark": "爽儿可口",
+            "id": 35,
+            "pic": "images/shaoyinyu.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "18",
+            "menuName": "香菇青菜枸杞",
+            "remark": "爽儿可口",
+            "id": 36,
+            "pic": "images/xianggugouqi.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "36",
+            "menuName": "香辣蚕蛹",
+            "remark": "爽儿可口",
+            "id": 37,
+            "pic": "images/xianglacanyong.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "旭日映西施",
+            "remark": "爽儿可口",
+            "id": 38,
+            "pic": "images/xuriyingxishi.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "28",
+            "menuName": "油爆大虾",
+            "remark": "爽儿可口",
+            "id": 39,
+            "pic": "images/youbaodaxia.png",
+            "units": "0",
+            "category": "1201",
+            "version": "1"
+        },
+        {
+            "price": "18",
+            "menuName": "草莓甜点",
+            "remark": "清香可口",
+            "id": 40,
+            "pic": "images/caomeitiandian.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "32",
+            "menuName": "哈根达斯",
+            "remark": "清香可口",
+            "id": 41,
+            "pic": "images/hagendasi.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "红梅芝士",
+            "remark": "清香可口",
+            "id": 42,
+            "pic": "images/hongmeizhishi.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "18",
+            "menuName": "蓝莓蛋糕",
+            "remark": "清香可口",
+            "id": 43,
+            "pic": "images/lanmeidangao.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "芒果船",
+            "remark": "清香可口",
+            "id": 44,
+            "pic": "images/mangguochuan.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "24",
+            "menuName": "南瓜派",
+            "remark": "清香可口",
+            "id": 45,
+            "pic": "images/nanguapai.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "18",
+            "menuName": "巧克力慕斯蛋糕",
+            "remark": "清香可口",
+            "id": 46,
+            "pic": "images/musi.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "巧克力曲奇",
+            "remark": "清香可口",
+            "id": 47,
+            "pic": "images/quqi.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "26",
+            "menuName": "巧克力芝士双拼",
+            "remark": "清香可口",
+            "id": 48,
+            "pic": "images/qiaokelizhishi.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "36",
+            "menuName": "什锦拼盘",
+            "remark": "清香可口",
+            "id": 49,
+            "pic": "images/shijinpinpan.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "38",
+            "menuName": "甜点套餐",
+            "remark": "清香可口",
+            "id": 50,
+            "pic": "images/taocan.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "黄绿之恋",
+            "remark": "清香可口",
+            "id": 51,
+            "pic": "images/huanglvzhilian.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "雪吻",
+            "remark": "清香可口",
+            "id": 52,
+            "pic": "images/xuewen.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        },
+        {
+            "price": "16",
+            "menuName": "玉米糕",
+            "remark": "清香可口",
+            "id": 53,
+            "pic": "images/yumigao.png",
+            "units": "0",
+            "category": "1206",
+            "version": "1"
+        }
+    ]
+}

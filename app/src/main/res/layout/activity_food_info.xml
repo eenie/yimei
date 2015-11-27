@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neusoft.eenie.order.controller.main.FoodInfoActivity">
+
+    <include layout="@layout/toolbar_top_menu"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/imageFoodPic"
+            android:src="@drawable/yumigao"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="玉米糕"
+            android:id="@+id/textFoodName"
+            android:textSize="18sp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="价格：￥8.00"
+            android:id="@+id/textFoodPrice"
+            android:padding="5dp"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:gravity="center"
+                android:text="数量："/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:text="-"
+                android:id="@+id/textView14"
+                android:background="@drawable/shape_btn_sub"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:maxLength="3"
+                android:text="0"
+                android:id="@+id/textFoodCount"
+                android:gravity="center"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:text="+"
+                android:id="@+id/textView16"
+                android:background="@drawable/shape_btn_plus"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="酸酸甜甜还有果粒的橘汁，既健康又经济 "
+            android:id="@+id/textFoodInfo"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neusoft.eenie.order.view.addFoodActivity"
+    android:padding="10dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/foodName"
+        android:hint="菜名"
+        />
+
+    <Spinner
+        android:id="@+id/foodCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/price"
+        android:hint="价格"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/remark"
+        android:hint="介绍"
+        android:layout_weight="1"
+        android:gravity="top"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCommit"
+        android:text="提交"
+        />
+
+</LinearLayout>

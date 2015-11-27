@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.neusoft.eenie.order.controller.main.UserInfoActivity"
+    android:background="#f5f5f5">
+
+    <include layout="@layout/toolbar_top_menu"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff">
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:id="@+id/relativeHead">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="头像"
+                android:id="@+id/textTitleName"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageHead"
+                android:src="@drawable/takeout_ic_avatar_logged_out"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="false"
+                android:layout_toLeftOf="@+id/imageView24"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView24"
+                android:src="@drawable/cashier__ic_arrow_right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/relativeName">
+
+            <TextView
+                android:text="修改"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView10"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="false"
+                android:layout_toLeftOf="@+id/imageView25"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Eenie"
+                android:id="@+id/textView21"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView25"
+                android:src="@drawable/cashier__ic_arrow_right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/relativePwd">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="修改用户密码"
+                android:id="@+id/textView26"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView27"
+                android:src="@drawable/cashier__ic_arrow_right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:text="修改"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView28"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="false"
+                android:layout_toLeftOf="@+id/imageView27"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/relativePhone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="绑定手机号"
+                android:id="@+id/textView27"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView29"
+                android:src="@drawable/cashier__ic_arrow_right"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="true"
+                android:layout_alignWithParentIfMissing="false"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:text="18651736251"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView33"
+                android:layout_gravity="right"
+                android:layout_alignParentRight="false"
+                android:layout_toLeftOf="@+id/imageView29"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注销登录"
+        android:id="@+id/btnLogOut"
+        android:layout_margin="10dp"
+        android:background="#FFFA5849"
+        android:textColor="#f5f5f5"/>
+</LinearLayout>

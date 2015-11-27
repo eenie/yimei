@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/main_ic_search"
+        android:id="@+id/menuTest"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:title="测试菜单"
+        app:showAsAction="always"
+        />
+
+</menu>

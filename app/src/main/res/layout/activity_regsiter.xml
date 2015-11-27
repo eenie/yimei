@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.neusoft.eenie.order.controller.login.LoginActivity"
+    android:background="#f5f5f5">
+    <include
+        android:id="@+id/topMenu"
+        layout="@layout/toolbar_top_menu"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topMenu">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+
+
+            <EditText
+                android:id="@+id/editAccountName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="请输入账号"
+                android:paddingLeft="50dp"
+                android:singleLine="true"/>
+            <ImageView
+                android:id="@+id/accountIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/takeout_ic_account"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignBottom="@+id/editAccountName"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <EditText
+                android:id="@+id/editAccountPwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:hint="请输入密码"
+                android:paddingLeft="50dp"
+                android:singleLine="true"
+                android:inputType="textPassword"/>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/takeout_ic_pay_password"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignBottom="@+id/editAccountPwd"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"/>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGGISTER"
+            android:id="@+id/btnReg"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#FC4D3D"
+            android:textColor="#f5f5f5"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
